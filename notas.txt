@@ -1,0 +1,104 @@
+TOKEN
+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
+
+------ Video 2 ------
+
+git init: al iniciar, para que git siga el proyecto
+
+git add: git realiza seguimiento a los archivos
+
+git commit: translada del area de ensayo (add) al repositorio de trabajo (respaldo de seguimiento)
+
+git status - s: estado del espacio de trabajo
+
+git commit -m "Texto Descriptivo"
+
+git log --oneline : listado de commits realizados
+
+git reset --hard "codigo commit" : restaurar al una version anterior
+
+
+
+
+----- Video 3 ------
+git add . : agrega todos los archivos
+
+git commit -am : agregar add y commit a la vez
+
+git commit --amend : abrir el editor vim
+    :i : comenzar a editar
+    tecla suprimir y borrar descripcion con suprimir
+    esc: salir del modo edicion
+    :i comenzar nuevo texto
+    enter y ecp: aparece el texto nuevo en la parte superior
+    :wq : guardar cambios
+
+(Subir al git hub)
+git remote rm origin
+git remote add origin (url)
+git push origin master
+ 
+
+
+
+
+----- Video 4 ------
+git config --get remote.origin.url (obtener link de repositorio)
+git pull "repositorio git hub": (descargar repositorio de git a local, si se realiza cambios desde el git Hub)
+
+git tag descripcion -m "comentario"
+
+git push --tags : actualizando los tags al git hub
+
+git clone (url del proyecto): clonar el proyecto de remoto a local
+
+
+
+
+----- Video 5 ------
+git branch "nombre de la rama" : crea una rama nueva
+
+git branch : listar ramas y saber en que me encuentro
+
+git checkout "nombre de la rama" : moverse a otra rama
+
+merge: unir 2 ramas
+- Estar obligatoriamente en la rama master
+git merge "nombre de la rama a fucionar"
+
+
+
+
+----- Video 6 ------
+Solo se ve la configuración del Visual Studio Code con Git
+
+
+
+
+----- Video 7 ------
+git branch -D "Nombre de la Rama" : eliminar rama
+
+- Resolviendo conflicto luego de hacer un merge
+
+
+
+
+----- Video 8 ------
+Desde el VSC, View, command palette
+escribir: git clone
+copiar repositorio de Git Hub, enter
+Subiendo con la herramienta push
+Bajando código desde la herramienta sincronizar
+
+
+
+----- Video 9 ------
+Practicando con Git Hub, creando ramas y haciendo merge
+
+
+
+
+----- Video 10 ------
+Borrar Datos de configuracion en windows:
+	inicio, configuracion, cuentas, buscar: credenciales, administrador de credenciales,
+	credenciales de windows, 
